@@ -1,0 +1,8 @@
+<h1>Episode Show page</h1>
+
+<p>Episode Date: <%= @episode.date %></p>
+<p>Episode #: <%= @episode.number %></p>
+
+
+<h2>List of all guests for this show</h2>
+<%= @episode.appearances.name %>
